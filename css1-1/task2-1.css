@@ -1,0 +1,36 @@
+/* bodyは触らない */
+body {background-color:pink;
+}
+
+div{
+    font-size: 20px;
+    font-family: Arial;
+}
+/* divのフォントサイズをCSSで20に設定 */
+/* div内のフォントをArialに設定 /* body*/
+div h4{
+font-size: 24px;
+}
+
+div h3{
+    font-size: 28px;
+}
+
+/* h3の文字の大きさをCSSで28に設定 */
+/* h4の文字の大きさを24にする */
+li{
+    font-size: 18px;
+    color: blue;
+}
+/* ナンバリングリストの文字の大きさ18px */
+/* ナンバリングリストの文字の色 青色 */
+
+
+/*  クラス名"abc"の文字を赤色 */
+.abc{
+    color: yellow;
+}
+/*  id名"abc"の文字を黄色 */
+#abc{
+    color: red;
+}

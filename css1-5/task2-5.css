@@ -1,0 +1,110 @@
+body {
+	background-image:url("https://pbs.twimg.com/media/EVeBJTDUEAAVPNS?format=jpg&name=large");
+  }
+  
+  header{
+	background-color: white;
+  }
+  
+  .inner{
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .logo{
+	width: 250px;
+	height: 75px;
+  }
+  
+  .menu{
+	display: flex;
+	align-items: center;
+  }
+  
+  ul li{
+	list-style: none;
+	padding: 0 10px;
+  }
+  
+  h2 h3{
+	background-color: white;
+  }
+  
+  .top-content{
+	background-color: rgb(224, 195, 140);
+	height: 600px;
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  }
+  
+  .left-content,.center-content,.right-content{
+	background-color: white;
+	height: 350px;
+	width: 350px;
+	position: relative;
+  }
+  
+  .image1,.image2,.image3{
+	height: 350px;
+	width: 350px;
+	position: absolute;
+  }
+  
+  .bottom-content{
+	background-color: pink;
+	height: 600px;
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  }
+  
+  .left-content,.center-content,.right-content{
+	background-color: white;
+	height: 350px;
+	width: 350px;
+	position: relative;
+  }
+  
+  .image4,.image5,.image6{
+	height: 350px;
+	width: 350px;
+	position: absolute;
+  }
+  
+  .left-text,.center-text,.right-text{
+	position: relative;
+	top: 350px;
+	text-align: center;
+	font-size: 20px;
+  }
+  
+  .money{
+	padding-left: 20px;
+  }
+  
+  .texts{
+	background-color: white;
+	height: 600px;
+	width: auto;
+	position: relative;
+  }
+  
+  .events{
+	position: absolute;
+  }
+  
+  ol li{
+	list-style: none;
+	margin: 20px 0px;
+  }
+  
+  .menulist,.lanch-time,.dinner-time,.eventnews{
+	background-color: white;
+  }
+  
+  .day{
+	color: orange;
+  }

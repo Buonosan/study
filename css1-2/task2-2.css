@@ -1,0 +1,67 @@
+/* body */
+/*背景色  ＃9999
+幅  １００％
+高さ  １００％
+外側の余白　全体に２％*/
+body{
+	background-color: #9999;
+	height: 100%;
+	width: 100%;
+	margin: 2%;
+}
+
+
+/* ol li  */
+/*外側の余白　上下４０px*/
+ul li{
+	margin: 40px;
+}
+
+/* main */
+.main{
+	list-style: none;
+	background-color: pink;
+	width: 50%;
+	height: auto;
+	padding: 5%;
+	border: 15px  solid yellow;
+}
+/*リストの点を消し
+背景色  ピンク色
+枠線の設定  黄色  １５pxの枠線
+幅　５０％
+高さ　auto
+外側の余白　左右５％*/
+li{
+	list-style: none;
+}
+
+
+/* area1・area2・area3 */
+/*文字の色　白色
+幅　７０px*/
+.area1,.area2,.area3{
+	color: white;
+	width: 70px;
+}
+
+
+/* area1 */
+/*背景色　黒色
+透明度　０.６*/
+.area1{
+	background-color: black;
+	opacity: 0.6;
+}
+
+
+/* area2 */
+/*背景色：右へ向かうグラデーション　青色・薄緑色 */
+.area2{
+	background: linear-gradient(to right,blue,yellowgreen)
+}
+/* area3 */
+.area3{
+	background: linear-gradient(to top left,red,orange,yellow)
+}
+/*背景色：左上へ向かうグラデーション　赤色・橙色・黄色 */

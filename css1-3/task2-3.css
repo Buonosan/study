@@ -1,0 +1,66 @@
+/* header */ /* footer */
+/*高さ ５０px
+幅 １００％
+背景色 自由（フッターと同色）*/
+
+header,footer{
+	height: 50px;
+	width: 100%;
+	background-color: aqua;
+}
+
+/* zone */
+/*幅 １００％
+高さ ５００px
+背景色 自由（他要素の背景色と同色は禁止）
+横並び配置
+  水平配置 アイテムの両端に余白を持たせたスペースを均等に割り付け
+  垂直配置 センター揃え
+文字の大きさ ３５px
+*/
+
+.zone{
+	height: 500px;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 35px;
+}
+
+
+/* 複数指定できるプロパティはまとめて装飾する */
+
+
+/* l-zone */
+/*高さ ２００px
+幅 ２００px
+背景色 自由（下から２色以上のグラデーション）*/
+
+.l-zone{
+	height: 200px;
+	width: 200px;
+	background: linear-gradient(to top,pink,hotpink);
+}
+
+
+/* c-zone */
+/*高さ ２００px
+幅 ２００px
+背景色 自由（左から２色以上のグラデーション）*/
+.c-zone{
+	height: 200px;
+	width: 200px;
+	background: linear-gradient(to right,pink,hotpink);
+}
+
+
+/* r-zone */
+/*高さ ２００px
+*/
+.r-zone{
+	height: 200px;
+	width: 200px;
+	background: linear-gradient(to bottom,pink,hotpink);
+}
